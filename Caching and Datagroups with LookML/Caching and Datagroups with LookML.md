@@ -21,6 +21,8 @@ datagroup: order_items_datagroup {
   max_cache_age: "1 hour"
 }
 
+persist_with: training_ecommerce_default_datagroup
+
 label: "E-Commerce Training"
 
 explore: order_items {
@@ -67,13 +69,7 @@ explore: events {
     relationship: many_to_one
   }
 }
-
 ```
-
-
-
-
-
 
 ### Congratulations !!!!
 
